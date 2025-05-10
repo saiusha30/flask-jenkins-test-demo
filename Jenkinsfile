@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git https://github.com/saiusha30/flask-jenkins-test-demo.git
+                git url: 'https://github.com/saiusha30/flask-jenkins-test-demo.git'
+
             }
         }
 
